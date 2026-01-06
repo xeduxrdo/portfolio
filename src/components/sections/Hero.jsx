@@ -46,7 +46,7 @@ function Hero() {
               className='flex items-center justify-between h-12 p-3 transition-colors 
               text-[clamp(0.875rem,1.50vw,1rem)]
               duration-300 ease-in-out border rounded-sm cursor-pointer w-30 border-zinc-400 dark:border-zinc-700 bg-zinc-200 dark:bg-zinc-900 hover:bg-zinc-100 dark:hover:bg-zinc-800'
-              href='/cv-eduardogarcia.pdf'
+              href={`${import.meta.env.BASE_URL}cv-eduardogarcia.pdf`}
               target='_blank'
               rel='noopener noreferrer'>
               Ver CV
