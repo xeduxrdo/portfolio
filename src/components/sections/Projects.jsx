@@ -40,7 +40,7 @@ function Projects() {
       src: pokedex,
       title: 'PokeDex',
       github: 'https://github.com/xeduxrdo/react-pokedex',
-      live: 'https://xeduxrdo.github.io/react-pokedex/',
+      live: 'https://xeduxrdo.github.io/pokedex/',
       techs: [html, css, react],
     },
   ];
